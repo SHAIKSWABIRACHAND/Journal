@@ -12,7 +12,7 @@ body{
     align-content: space-around;
 
 }
-.container1{
+.container1,.container2{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,4 +33,26 @@ body{
 .cart{
     background-color: aquamarine;
     padding: 30px;
+}
+
+.describtion{
+    display: flex;
+    padding: 30px;
+   
+
+}
+
+.desc{
+    color: purple;
+    max-width:281px;
+    
+
+}
+
+.subNdesc{
+   margin-top:20px;
+   padding:5px;
+   background-color: rgb(255, 0, 208);
+   border-radius: 20px;
+
 }
